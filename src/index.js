@@ -1,0 +1,4 @@
+import './index.html';
+import chat from './chat.js';
+
+new chat();
