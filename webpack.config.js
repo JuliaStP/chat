@@ -33,7 +33,8 @@ module.exports = {
         new ExtractTextPlugin('styles.css'),
         new HtmlPlugin({
             title: 'Chat',
-            template: 'index.hbs'
+            template: 'src/index.html',
+            filename: 'index.html'
         }),
         new CleanWebpackPlugin(['dist'])
     ]

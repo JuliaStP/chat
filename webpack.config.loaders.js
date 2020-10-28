@@ -6,7 +6,7 @@ module.exports = function() {
             loader: 'babel-loader'
         },
         {
-            test: /\.hbs/,
+            test: /\.html/,
             loader: 'handlebars-loader'
         },
         {

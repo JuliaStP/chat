@@ -109,6 +109,7 @@ input {
 }
 
 .login__input {
+  position: relative;
   border: none;
   border-bottom: 1px solid #7f91a4;
   width: 100%;
@@ -128,6 +129,17 @@ input {
   font-size: 16px;
   font-weight: 300;
   color: #7f91a4 !important;
+}
+
+.error {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 300;
+  height: 30px;
+  width: 70%;
+  width: 58%;
+  top: 93%;
+  color: red;
 }
 
 .btn {
